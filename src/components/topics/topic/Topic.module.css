@@ -1,0 +1,47 @@
+/* topic component */
+.topic {
+  max-width: 400px;
+  height: fit-content;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-bottom: 1rem;
+}
+
+.topic:hover {
+  box-shadow: 0 0 15px 0 #e5e5e5;
+}
+
+.topic p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.topic img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.topic .qMeta {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 6px;
+}
+
+.topic .qMeta p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .topic {
+    width: 100%;
+  }
+}
