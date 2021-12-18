@@ -8,7 +8,7 @@ export default function Account() {
         account_circle
       </span>
 
-      <a href="/">Registration</a>
+      <a href="/">Singup</a>
 
       {/* <span className="material-icons-outlined" title="Logout">
         Logout
