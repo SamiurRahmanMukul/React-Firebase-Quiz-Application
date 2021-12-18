@@ -1,4 +1,5 @@
 import React from "react";
+import SingupImage from "../../../assets/images/singup.svg";
 import Button from "./button/Button";
 import Checkbox from "./check-box/CheckBox";
 import Form from "./form/Form";
@@ -12,7 +13,7 @@ export default function SingupPage() {
       <h1>Create an account</h1>
 
       <div className="column">
-        <Illustration />
+        <Illustration image={SingupImage} />
         <Form className={Style.singup}>
           <TextInput type="text" placeholder="Enter name" icon="person" />
           <TextInput type="text" placeholder="Enter email" icon="alternate_email" />
