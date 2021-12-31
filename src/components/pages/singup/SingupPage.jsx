@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SingupImage from "../../../assets/images/singup.svg";
 import Button from "./button/Button";
 import Checkbox from "./check-box/CheckBox";
@@ -25,7 +26,7 @@ export default function SingupPage() {
           <Button>Create account</Button>
 
           <div className="info">
-            Already have an account? <a href="/">Login</a> instead.
+            Already have an account? <Link to="/login">Login</Link> instead.
           </div>
         </Form>
       </div>
