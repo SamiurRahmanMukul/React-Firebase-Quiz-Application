@@ -20,7 +20,7 @@ export default function Account() {
         </>
       ) : (
         <>
-          <Link to="/signup">Signup</Link>
+          <Link to="/singup">Signup</Link>
           <Link to="/login">Login</Link>
         </>
       )}

@@ -23,7 +23,7 @@ export function AuthProvider({ children }) {
   }, []);
 
   // signup function
-  async function signup(email, password, username) {
+  async function signup(username, email, password) {
     const auth = getAuth();
     await createUserWithEmailAndPassword(auth, email, password);
 
@@ -41,6 +41,7 @@ export function AuthProvider({ children }) {
   // login function
   function login(email, password) {
     const auth = getAuth();
+
     return signInWithEmailAndPassword(auth, email, password);
   }
 
