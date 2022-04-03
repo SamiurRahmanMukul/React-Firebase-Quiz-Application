@@ -43,7 +43,7 @@ export default function LoginForm() {
       {error && <p className="error">{error}</p>}
 
       <div className="info">
-        Don't have an account? <Link to="/signup">Signup</Link> instead.
+        Don't have an account? <Link to="/singup">Singup</Link> instead.
       </div>
     </Form>
   );
