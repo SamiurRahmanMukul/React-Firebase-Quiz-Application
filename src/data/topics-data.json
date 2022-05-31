@@ -1,0 +1,255 @@
+{
+  "topics": {
+    "1": {
+      "topicId": "100",
+      "title": "React - JavaScript Library for Building User Interfaces",
+      "description": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However, React can also be used in the development of traditional web applications, as it is able to compose complex UIs from small, reusable pieces, and it remains accessible to both novice and experienced developers.",
+      "bannerUrl": "https://coursework.vschool.io/content/images/2017/08/react.png",
+      "topicAddTime": "2022-04-29T22:00:00.000Z",
+      "noQuestions": "2"
+    },
+    "2": {
+      "topicId": "200",
+      "title": "Angular - JavaScript Framework for Building Single Page Applications",
+      "description": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. Express is a great choice for web and mobile development because it is extremely lightweight and has a consistent API.",
+      "bannerUrl": "https://www.kindpng.com/picc/m/127-1272534_custom-web-development-company-in-india-angularjs-development.png",
+      "topicAddTime": "2022-04-29T22:00:00.000Z",
+      "noQuestions": "2"
+    },
+    "3": {
+      "topicId": "300",
+      "title": "Vue - JavaScript Framework for Building User Interfaces",
+      "description": "Vue.js is a JavaScript framework for building user interfaces. Vue.js is a progressive framework, meaning it is designed to be incrementally adoptable. It is optimized for development and performance, and is maintained by a community of individual developers and companies. Vue can be used as a base in the development of single-page or mobile applications. However, Vue can also be used in the development of traditional web applications, as it is able to compose complex UIs from small, reusable pieces, and it remains accessible to both novice and experienced developers.",
+      "bannerUrl": "https://centogram.com/wp-content/uploads/2020/08/VUEJs.jpeg",
+      "topicAddTime": "2022-04-29T22:00:00.000Z",
+      "noQuestions": "2"
+    },
+    "4": {
+      "topicId": "400",
+      "title": "Node - JavaScript Framework for Building Single-Page Applications",
+      "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.",
+      "bannerUrl": "https://www.hostnextra.com/kb/wp-content/uploads/2021/01/4-steps-to-install-nodejs-on-ubuntu-20-04.png",
+      "topicAddTime": "2022-04-29T22:00:00.000Z",
+      "noQuestions": "5"
+    },
+    "5": {
+      "topicId": "2",
+      "title": "Express - JavaScript Framework for Building Single-Page Applications",
+      "description": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. Express is a great choice for web and mobile development because it is extremely lightweight and has a consistent API.",
+      "bannerUrl": "https://miro.medium.com/max/1400/0*iechRr4efJARJmnK.jpg",
+      "noQuestions": "5"
+    }
+  },
+  "topicsQuiz": {
+    "100": {
+      "questions": [
+        {
+          "questionId": "1",
+          "questionName": "What is React?",
+          "options": [
+            {
+              "title": "A JavaScript library for building user interfaces"
+            },
+            {
+              "title": "A JavaScript framework for building user interfaces"
+            },
+            {
+              "title": "A JavaScript framework for building single-page applications"
+            },
+            {
+              "title": "A JavaScript framework for building web applications"
+            }
+          ],
+          "answer": "A JavaScript library for building user interfaces"
+        },
+        {
+          "questionId": "2",
+          "questionName": "What is the correct command to create a new React project?",
+          "options": [
+            {
+              "title": "npx create-react-app"
+            },
+            {
+              "title": "npm create-react-app"
+            },
+            {
+              "title": "npx create-react-app myReactApp"
+            },
+            {
+              "title": "npm create-react-app myReactApp"
+            }
+          ],
+          "answer": "npx create-react-app myReactApp"
+        }
+      ]
+    },
+    "200": {
+      "questions": [
+        {
+          "questionId": "3",
+          "questionName": "What is Angular?",
+          "options": [
+            {
+              "title": "A JavaScript library for building user interfaces"
+            },
+            {
+              "title": "A JavaScript framework for building user interfaces"
+            },
+            {
+              "title": "A JavaScript framework for building single-page applications"
+            },
+            {
+              "title": "A JavaScript framework for building web applications"
+            }
+          ],
+          "answer": "A JavaScript framework for building single-page applications"
+        },
+        {
+          "questionId": "4",
+          "questionName": "Which directive connects the value of the controls to the data?",
+          "options": [
+            {
+              "title": "ng-app"
+            },
+            {
+              "title": "ng-model"
+            },
+            {
+              "title": "ng-bind"
+            },
+            {
+              "title": "ng-init"
+            }
+          ],
+          "answer": "ng-model"
+        }
+      ]
+    },
+    "300": {
+      "questions": [
+        {
+          "questionId": "5",
+          "questionName": "What is Vue?",
+          "options": [
+            {
+              "title": "A JavaScript library for building user interfaces"
+            },
+            {
+              "title": "The Progressive JavaScript Framework"
+            },
+            {
+              "title": "A JavaScript framework for building single-page applications"
+            },
+            {
+              "title": "A JavaScript framework for building web applications"
+            }
+          ],
+          "answer": "The Progressive JavaScript Framework"
+        },
+        {
+          "questionId": "6",
+          "questionName": "Which of the directives below provide a two-way binding?",
+          "options": [
+            {
+              "title": "none"
+            },
+            {
+              "title": "v-inline"
+            },
+            {
+              "title": "v-mode"
+            },
+            {
+              "title": "v-on"
+            }
+          ],
+          "answer": "v-mode"
+        }
+      ]
+    },
+    "400": {
+      "questions": [
+        {
+          "questionId": "7",
+          "questionName": "What is Node?",
+          "options": [
+            {
+              "title": "A JavaScript library for building user interfaces"
+            },
+            {
+              "title": "A JavaScript framework for building user interfaces"
+            },
+            {
+              "title": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine"
+            },
+            {
+              "title": "A JavaScript framework for building web applications"
+            }
+          ],
+          "answer": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine"
+        },
+        {
+          "questionId": "8",
+          "questionName": "Which of the following is not a Node.js package?",
+          "options": [
+            {
+              "title": "express"
+            },
+            {
+              "title": "body-parser"
+            },
+            {
+              "title": "mongoose"
+            },
+            {
+              "title": "nodemon"
+            }
+          ],
+          "answer": "nodemon"
+        }
+      ]
+    },
+    "500": {
+      "questions": [
+        {
+          "questionId": "9",
+          "questionName": "What is Express?",
+          "options": [
+            {
+              "title": "A JavaScript library for building user interfaces"
+            },
+            {
+              "title": "A JavaScript framework for building user interfaces"
+            },
+            {
+              "title": "Fast, unopinionated, minimalist web framework for Node.js"
+            },
+            {
+              "title": "A JavaScript framework for building web applications"
+            }
+          ],
+          "answer": "Fast, unopinionated, minimalist web framework for Node.js"
+        },
+        {
+          "questionId": "10",
+          "questionName": "Which of the following is not a Express package?",
+          "options": [
+            {
+              "title": "express"
+            },
+            {
+              "title": "body-parser"
+            },
+            {
+              "title": "mongoose"
+            },
+            {
+              "title": "nodemon"
+            }
+          ],
+          "answer": "mongoose"
+        }
+      ]
+    }
+  }
+}
